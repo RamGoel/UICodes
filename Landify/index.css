@@ -1,0 +1,505 @@
+/*Universal CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: Poppins;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+button:hover {
+    scale: 1.03;
+    rotate: -0.5deg;
+    transition: 0.5s;
+}
+
+.yellow {
+    background-color: rgba(219, 237, 28, 0.3) !important;
+}
+
+.red {
+    background-color: rgba(255, 0, 0, 0.3) !important;
+}
+
+.purple {
+    background-color: rgba(63, 34, 231, 0.3) !important;
+}
+
+.green {
+    background-color: rgba(144, 238, 144, 0.3) !important;
+}
+
+
+/* Navbar */
+
+.nav-cover{
+    overflow: hidden;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 10px 20px;
+
+}
+
+.nav-title {
+    width: 10%;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav-right {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-link>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-btn {
+    max-width: 40%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+/*Hero */
+
+.hero {
+    width: 100%;
+    display: flex;
+    background-color: rgb(243 236 220);
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 40%;
+    margin: auto;
+    padding: 10px 20px;
+
+}
+
+.hero-right {
+    height: 100%;
+    width: auto;
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    margin: 0px 0px;
+    padding: 0px;
+    font-weight: 800;
+    word-break: break-word;
+}
+
+.hero-left p {
+    font-size: 15px;
+    width: 70%;
+    line-height: 20px;
+}
+
+.hero-btn{
+    background-color: pink;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.hero-left .second {
+    background-color: transparent;
+}
+
+
+/*about*/
+
+.about {
+    width: 100%;
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-top h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.about-top p {
+    margin: 5px auto;
+    width: 70%;
+    font-size: 13px;
+}
+
+.about-bottom {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon-card {
+    width: 22%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card-top {
+    width: 100%;
+    height: 50%;
+}
+
+.icon-div {
+    width: 50px;
+    margin: auto;
+    border-radius: 200px;
+    background-color: rgba(144, 238, 144, 0.3);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-text {
+    height: 50%;
+}
+
+.card-text h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.card-text p {
+    margin: 5px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/*Services*/
+
+.services {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.services-bottom {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.service-card {
+    width: 29%;
+    min-height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.service-card div {
+    padding: 5px;
+}
+
+.service-card h3 {
+    font-size: 15px;
+}
+
+.service-card p {
+    font-size: 12px;
+}
+
+.service-card button {
+    width: 100%;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+
+
+/*FAQ*/
+
+.faq {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-cover{
+    width: 80%;
+}
+.faq .about-top>p {
+    width: 100%;
+}
+
+.faq-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.faq-card {
+    width: 45%;
+}
+
+.faq-card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin:10px 0px
+}
+
+.faq-card div p{
+    font-size: 13px;
+}
+
+.faq-card div button{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.foot-top{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.foot-list{
+    width: 25%;
+}
+
+.foot-list h3{
+    font-size: 15px;
+}
+
+.foot-list div p{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+
+.foot-cta{
+    width: 50%;
+}
+.foot-cta h3{
+    font-size: 15px;
+}
+
+
+
+.foot-cta div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foot-cta div input{
+    padding: 10px;
+    border-radius: 8px;
+    width: 70%;
+    border: none;
+    margin: 10px 0px;
+}
+
+.foot-bottom{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foot-bottom p{
+    font-size: 12px;
+    width: 20%;
+}
+.foot-bottom div{
+    display: flex;
+    font-size: 12px;
+    width: 65%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.foot-bottom div p{
+    width: fit-content;
+    opacity: 0.8;
+}
+
+
+
+/*Responsive*/
+
+
+@media screen and (max-width:990px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .hero-right {
+        width: 100%;
+        height: auto;
+        margin-right: auto;
+    }
+
+    .hero-left {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .hero-left p{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .navbar {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .about-bottom {
+        width: 100%;
+    }
+
+    .nav-btn {
+        width: auto;
+    }
+
+    .service-card {
+        width: 45%;
+    }
+
+
+    .foot-list{
+        width: 50%;
+    }
+    .foot-cta{
+        width: 100%;
+    }
+    .foot-cta div{
+        justify-content: left;
+    }
+    .foot-bottom p{
+        width: 100%;
+        text-align: left;
+    }
+    .foot-bottom div{
+        width: 100%;
+        text-align: left;
+    }
+
+    .foot-top .foot-bottom{
+        width: 100%;
+    }
+    .faq-card{
+        width: 100%;
+    }
+    .about{
+        height: auto;
+    }
+    .faq{
+        height: auto;
+    }
+    .icon-card{
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .service-card{
+        width: 100%;
+    }
+    .nav-title{
+        text-align: center;
+    }
+    .nav-btn{
+        display: none;
+    }
+}
+
